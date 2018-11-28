@@ -1,15 +1,48 @@
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
-[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set(C:\Users\scabrera\Downloads\example\src\test\scala\example\ListsSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(C:\Users\scabrera\Downloads\ScalaSpecialization\Functional Programming Principles in Scala\Week 1\example\src\test\scala\example\ListsSuite.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set(C:\Users\scabrera\Downloads\example\target\scala-2.11\test-classes\example\ListsSuite$$anonfun$6.class, C:\Users\scabrera\Downloads\example\target\scala-2.11\test-classes\example\ListsSuite$$anonfun$4.class, C:\Users\scabrera\Downloads\example\target\scala-2.11\test-classes\example\ListsSuite$$anonfun$9.class, C:\Users\scabrera\Downloads\example\target\scala-2.11\test-classes\example\ListsSuite$$anonfun$5.class, C:\Users\scabrera\Downloads\example\target\scala-2.11\test-classes\example\ListsSuite$$anonfun$10.class, C:\Users\scabrera\Downloads\example\target\scala-2.11\test-classes\example\ListsSuite$$anonfun$3.class, C:\Users\scabrera\Downloads\example\target\scala-2.11\test-classes\example\ListsSuite$$anonfun$4$$anonfun$apply$1.class, C:\Users\scabrera\Downloads\example\target\scala-2.11\test-classes\example\ListsSuite$$anonfun$7.class, C:\Users\scabrera\Downloads\example\target\scala-2.11\test-classes\example\ListsSuite$$anonfun$2.class, C:\Users\scabrera\Downloads\example\target\scala-2.11\test-classes\example\ListsSuite$$anonfun$9$$anonfun$apply$2.class, C:\Users\scabrera\Downloads\example\target\scala-2.11\test-classes\example\ListsSuite.class, C:\Users\scabrera\Downloads\example\target\scala-2.11\test-classes\example\ListsSuite$$anonfun$8.class, C:\Users\scabrera\Downloads\example\target\scala-2.11\test-classes\example\ListsSuite$$anonfun$1.class)[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(C:\Users\scabrera\Downloads\example\src\test\scala\example\ListsSuite.scala, C:\Users\scabrera\Downloads\ScalaSpecialization\Functional Programming Principles in Scala\Week 1\example\src\test\scala\example\ListsSuite.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set(C:\Users\scabrera\Downloads\example\src\test\scala\example\ListsSuite.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\scabrera\Downloads\example\src\test\scala\example\ListsSuite.scala, C:\Users\scabrera\Downloads\ScalaSpecialization\Functional Programming Principles in Scala\Week 1\example\src\test\scala\example\ListsSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\scabrera\Downloads\example\src\test\scala\example\ListsSuite.scala, C:\Users\scabrera\Downloads\ScalaSpecialization\Functional Programming Principles in Scala\Week 1\example\src\test\scala\example\ListsSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to C:\Users\scabrera\Downloads\ScalaSpecialization\Functional Programming Principles in Scala\Week 1\example\target\scala-2.11\test-classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.11.12[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.11.12[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3eda78ba, interfacing (CompilerInterface) with Scala compiler version 2.11.12[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes;C:\Users\scabrera\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\Users\scabrera\Downloads\ScalaSpecialization\Functional Programming Principles in Scala\Week 1\example\target\scala-2.11\test-classes;C:\Users\scabrera\Downloads\ScalaSpecialization\Functional Programming Principles in Scala\Week 1\example\target\scala-2.11\classes;C:\Users\scabrera\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.11\3.0.5\scalatest_2.11-3.0.5.jar;C:\Users\scabrera\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar;C:\Users\scabrera\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.6\scala-xml_2.11-1.0.6.jar;C:\Users\scabrera\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.11\3.0.5\scalactic_2.11-3.0.5.jar;C:\Users\scabrera\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\scabrera\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\scabrera\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\junit\junit\4.10\junit-4.10.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 7.0415534 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating C:\Users\scabrera\Downloads\ScalaSpecialization\Functional Programming Principles in Scala\Week 1\example\src\test\scala\example\ListsSuite.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from C:\Users\scabrera\Downloads\ScalaSpecialization\Functional Programming Principles in Scala\Week 1\example\src\test\scala\example\ListsSuite.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\scabrera\Downloads\ScalaSpecialization\Functional Programming Principles in Scala\Week 1\example\src\test\scala\example\ListsSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(C:\Users\scabrera\Downloads\ScalaSpecialization\Functional Programming Principles in Scala\Week 1\example\src\test\scala\example\ListsSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The C:\Users\scabrera\Downloads\ScalaSpecialization\Functional Programming Principles in Scala\Week 1\example\src\test\scala\example\ListsSuite.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	unconstrainedEquality, convertToEqualizer.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating C:\Users\scabrera\Downloads\example\src\test\scala\example\ListsSuite.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from C:\Users\scabrera\Downloads\example\src\test\scala\example\ListsSuite.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\scabrera\Downloads\example\src\test\scala\example\ListsSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(C:\Users\scabrera\Downloads\example\src\test\scala\example\ListsSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The C:\Users\scabrera\Downloads\example\src\test\scala\example\ListsSuite.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	unconstrainedEquality, convertToEqualizer.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
