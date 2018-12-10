@@ -69,7 +69,16 @@ class BlurSuite extends FunSuite {
     src(0, 1) = 3; src(1, 1) = 4; src(2, 1) = 5; src(3, 1) = 10
     src(0, 2) = 6; src(1, 2) = 7; src(2, 2) = 8; src(3, 2) = 11
 
+    val blurStart = System.currentTimeMillis()
     VerticalBoxBlur.blur(src, dst, 0, 4, 2)
+    val blurEnd = System.currentTimeMillis()
+
+    val parBlurStart = System.currentTimeMillis()
+    VerticalBoxBlur.parBlur(src, dst, 3, 2)
+    val parBlurEnd = System.currentTimeMillis()
+
+    println("Time to blur: " + (blurStart-blurEnd))
+    println("Time to parBlur: " + (parBlurStart-parBlurEnd))
 
     def check(x: Int, y: Int, expected: Int) =
       assert(dst(x, y) == expected,
