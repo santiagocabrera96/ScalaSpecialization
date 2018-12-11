@@ -45,7 +45,12 @@ package object scalashop {
       x1 <- x - radius to x + radius
       if x1 == clamp(x1, 0, src.width-1) && y1 == clamp(y1, 0, src.height-1)
     } yield src(x1, y1)
-    pixels.sum / pixels.length
+    val length = pixels.length
+    val redBlur = pixels.map(red(_)).sum / length
+    val greenBlur = pixels.map(green(_)).sum / length
+    val blueBlur = pixels.map(blue(_)).sum / length
+    val alphaBlur = pixels.map(alpha(_)).sum / length
+    rgba(redBlur, greenBlur, blueBlur, alphaBlur)
   }
 
 }
